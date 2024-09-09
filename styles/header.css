@@ -1,0 +1,51 @@
+.nav__container {
+    width: 1151.35px;
+    height: 25.18px;
+    margin: 0px auto;
+    padding-top: 32.82px;
+  }
+  
+  .logo__link {
+    display: inline-block;
+  
+  }
+  
+  .logo {
+    display: block;
+    width: 110px;
+    height: 21.42px;
+    margin-right: 558.46px;
+  }
+  
+  .nav {
+    display: inline-block;
+    vertical-align: top;
+    /*перемещение на верх */
+  }
+  
+  
+  
+  .nav__link {
+    display: inline-block;
+    margin-right: 60px;
+    line-height: 60px;
+    text-align: center;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    color: rgb(18, 18, 18)
+  }
+  
+  .nav__link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+  }
+  
+  
+  .nav__link:last-child {
+    margin-right: 0;
+  
+  }
+  

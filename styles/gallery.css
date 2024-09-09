@@ -1,0 +1,25 @@
+.gallery {
+    position: relative;
+    height: 717px;
+    background-image: url("../resources/bedroom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*cover - картинка тянется, занимает 100% ширины всегда
+                            contain-будет вписываться в блок, не ломая пропорции */
+    background-position: 50% 50%;
+    /*картинка всегда будет стоять по центру */
+  }
+  
+  
+  .gallery__text {
+    position: absolute;
+    width: 443px;
+    height: 82px;
+    left: 125px;
+    right: 832px;
+    top: 575px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    color: rgb(255, 255, 255);
+  }

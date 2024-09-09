@@ -1,0 +1,48 @@
+.section-black {
+    box-sizing: border-box;
+    height: 1844px;
+    padding: 125px;
+    background-color: rgb(18, 18, 18);
+    margin-bottom: 0;
+  }
+  
+  .section__title {
+    box-sizing: border-box;
+    padding-top: 26px;
+    padding-bottom: 34px;
+    padding-left: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .service {
+    width: 1150px;
+    height: 326px;
+    margin-bottom: 60px;
+  }
+  
+  .service__image {
+    width: 1150px;
+    height: 270px;
+    margin-bottom: 15px;
+  }
+  
+  .service__title {
+    height: 41px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    margin-left: 3px;
+    letter-spacing: -0.03em;
+    color: rgb(255, 255, 255);
+  }
+  
+  .block4:nth-last-child(1) {
+    /*позволяет добавить какие-то изменения в определенный блок */
+    margin-bottom: 0px;
+  }
+  
+  
+ 
