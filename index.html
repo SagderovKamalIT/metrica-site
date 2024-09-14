@@ -3,184 +3,178 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Metrica</title>
 
   <link rel="stylesheet" href="styles/reset.css" />
 
-
-  <link rel="icon" href="resources/favicon.png" type="image/png">
+  <link rel="icon" href="resources/favicon.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
-  
 
   <link rel="stylesheet" href="styles/styles.css" />
 </head>
 
 <body>
+  <!-- 
+    <header>
 
-
-
-  
-
-   
-
-    <!-- <header>
-      <div class="nav__section">
-        <div class="nav__container">
-          <a href="/" class="logo__link">
-            <img src="./resources/Метрика.jpeg" alt="Логотип" class="logo">
-          </a>
-          <nav class="nav">
-            <a href="#aboutus" class="nav__link nav__link_active">О НАС</a>
-            <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
-            <a href="#services" class="nav__link">УСЛУГИ</a>
-            <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
-          </nav>
+      <div class="container">
+        <div class="nav__section">
+          <div class="nav__container">
+            <a href="/" class="logo__link">
+              <img src="./resources/Метрика.jpeg" alt="Логотип" class="logo">
+            </a>
+            <nav class="nav">
+              <a href="#aboutus" class="nav__link nav__link_active">О НАС</a>
+              <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+              <a href="#services" class="nav__link">УСЛУГИ</a>
+              <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+            </nav>
+          </div>
         </div>
       </div>
-    </header> -->
-    
- <main  >
-  
+
+    </header>  -->
+
+  <main>
+    <section class="intro">
       <div class="container">
+        <h1 class="intro__text">
+          Современные и стильные <br />интерьеры для комфортной жизни
+        </h1>
+        <div class="intro__image">
+          <p class="intro__image__text">
+            Мы - команда квалифицированных дизайнеров и архитекторов,
+            занимающихся разработкой и реализацией дизайн-проектов
+          </p>
+        </div>
+      </div>
+    </section>
 
-        <section class="intro" >
+    <section class="about" id="aboutus">
+      <!-- якорная ссылка-->
 
-          <h1 class="intro_text" >Современные и стильные <br>интерьеры для комфортной жизни</h1>
-
-
-          <div class="intro_image" >
-            <p class="intro_image_text">
-              Мы - команда квалифицированных дизайнеров и архитекторов,
-              занимающихся разработкой и реализацией дизайн-проектов
-            </p>
-          </div>
-        </section>
-
-      </section>
-      <section class="about_us" id="aboutus"> <!-- якорная ссылка-->
-
-
-         <h2 class="about_us_text" >О НАС</h2>
-        <p class="about_us_paragraph">
+      <div class="container">
+        <h2 class="about__text">О НАС</h2>
+        <p class="about__paragraph">
           Студия основана в 2011 году. Полностью отдаемся проектированию и
           реализации интерьеров. К нам обращаются за уютом, индивидуальными
-          решениями и практичностью. Находим конструктивные решения для каждого
-          интерьера, вплоть до каждой детали — нацелены на результат.
+          решениями и практичностью. Находим конструктивные решения для
+          каждого интерьера, вплоть до каждой детали — нацелены на результат.
         </p>
-        <a class="btn" href="404">Посмотреть услуги</a>
-      </section>
-    
+        <a class="services__btn" href="404">Посмотреть услуги</a>
+      </div>
+    </section>
 
+    <section id="projects" class="items__projects">
+      <div class="container">
+        <h2 class="projects__title">ПРОЕКТЫ</h2>
 
-
-       <section id="projects" class="items__projects">
-
-        <ul class="projects_list">
-          <h2 class="projects_title">ПРОЕКТЫ</h2>
-          <li class="list_item">
-
-           <picture>
-              
-            <source media="(max-width:500px )" srcset="resources/JK1_mobile.png" >
-            <source media="(max-width:1199px )" srcset="resources/JK1_tablet.png" >
-                <img
-                class="projects_image"
-                src="resources/JK_1.png"
-                alt="красивый диван"
-                >
-           </picture>
-          
-
-            <h3 class="projects__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2024</h3>
-            <a href="404" class="projects__link">Подробнее →</a>
-          </li>
-
-          <li class="list_item">
-
+        <ul class="projects__list">
+          <li class="list__item">
             <picture>
-              <source media="(max-width:500px )" srcset="resources/JK_2_mobile.png">
-              <source media="(max-width:1199px)" srcset="resources/JK_2_tablet.png" >
-              <img class="projects_image" src="resources/JK_2.png" alt="современный столик" />
+              <source media="(max-width:500px )" srcset="resources/JK1_mobile.png" />
+              <source media="(max-width:1199px )" srcset="resources/JK1_tablet.png" />
+              <img class="projects__image" src="resources/JK_1.png" alt="красивый диван" />
             </picture>
 
-            <h3 class="projects__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2024</h3>
+            <h3 class="projects__description">
+              ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2024
+            </h3>
             <a href="404" class="projects__link">Подробнее →</a>
           </li>
-          <li class="list_item">
-
+          <li class="list__item">
             <picture>
-              <source media="(max-width:500px )" srcset="resources/JK_3_mobile.png">
-              <source media="(max-width:1199px)" srcset="resources/JK_3_tablet.png" >
-            <img class="projects_image" src="resources/JK_3.png" alt="cтильный обеденный стол" />
-          </picture>
-
-            <h3 class="projects__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2024</h3>
+              <source media="(max-width:500px )" srcset="resources/JK_2_mobile.png" />
+              <source media="(max-width:1199px)" srcset="resources/JK_2_tablet.png" />
+              <img class="projects__image" src="resources/JK_2.png" alt="современный столик" />
+            </picture>
+            <h3 class="projects__description">
+              ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2024
+            </h3>
+            <a href="404" class="projects__link">Подробнее →</a>
+          </li>
+          <li class="list__item">
+            <picture>
+              <source media="(max-width:500px )" srcset="resources/JK_3_mobile.png" />
+              <source media="(max-width:1199px)" srcset="resources/JK_3_tablet.png" />
+              <img class="projects__image" src="resources/JK_3.png" alt="cтильный обеденный стол" />
+            </picture>
+            <h3 class="projects__description">
+              ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2024
+            </h3>
             <a href="404" class="projects__link">Подробнее →</a>
           </li>
 
-          <a class="full_btn" href="404">Смотреть все проекты.</a>  
-          
+          <div class="projects__btn">
+            <a class="btn" href="404">Смотреть все проекты</a>
+          </div>
         </ul>
+      </div>
+    </section>
 
-        
-      </section> 
-
-    </div>
-              
-
-    
-        </main>
-
-              <!-- 
-           > -->
-        
-      
-
-      
-  
-      <!-- <section id="services" class="section-black items__projects">
-  
+    <section id="services" class="section__services">
+      <div class="container">
         <h2 class="section__title">УСЛУГИ</h2>
-  
+
         <ul class="services">
-  
           <li class="service">
-            <img class="service__image" src="resources/services1.jpeg" />
-            <p class="service__title">Планировочное решение — от 2500₽/м²</p>
+
+            <div class="service__block">
+
+              <p class="service__price">от 2500₽/м²</p>
+
+              <img class="service__image" src="resources/planing.png" />
+
+            </div>
+            <p class="service__title">Планировочное решение</p>
           </li>
-  
-  
-  
+
           <li class="service">
-            <img class="service__image" src="resources/services2.jpeg" />
-            <p class="service__title">Дизайн-проект — от 3000₽/м²</p>
+            <div class="service__block">
+
+              <p class="service__price">от 3000₽/м²</p>
+
+              <img class="service__image" src="resources/design.png" />
+            </div>
+            <p class="service__title">Дизайн-проект</p>
           </li>
-  
-  
-  
-  
+
           <li class="service">
-            <img class="service__image" src="resources/services3.jpeg" />
-            <p class="service__title">Авторский надзор — от 30 000₽ в месяц</p>
+            <div class="service__block">
+
+              <p class="service__price">от 30 000₽/мес</p>
+
+              <img class="service__image" src="resources/supervision.png" />
+
+            </div>
+            <p class="service__title">Авторский надзор</p>
           </li>
-  
-  
-  
+
           <li class="service">
-            <img class="service__image" src="resources/services4.jpeg" />
-            <p class="service__title">Комплектация — 5% от стоимости спецификации</p>
+
+            <div class="service__block">
+
+              <p class="service__price">5% от стоимости</p>
+
+
+
+              <img class="service__image" src="resources/complectation.png" />
+
+
+            </div>
+            <p class="service__title">Комплектация</p>
           </li>
-  
+
+          <a class="btn btn_inverted" href="404">Заказать услугу</a>
         </ul>
-  
-  
-       </section>
-  
-  
-       <section class="gallery">
+      </div>
+    </section>
+  </main>
+
+  <!-- <section class="gallery">
   
         <p class="gallery__text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
   
@@ -220,8 +214,6 @@
     <p class="footer_title" >студия дизайна интерьера Метрика — 2024</p>
 
 </footer> -->
-
-  </div>
 </body>
 
 </html>
