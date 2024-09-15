@@ -1,7 +1,5 @@
-
-
 .about {
-   padding: 75px 0;
+    padding: 75px 0;
 }
 
 .about__text {
@@ -37,8 +35,7 @@
 @media (max-width: 960px) {
     .about {
         max-width: 693px;
-        height: 488px;
-        margin-bottom: 120px;
+        padding: 60px 0;
     }
 
     .about__text {
@@ -51,18 +48,16 @@
         font-size: 35px;
         line-height: 48px;
     }
-    
 
     
 }
-
 
 
 @media (max-width: 640px) {
     .about {
         width: 100%;
         height: 420px;
-        margin-bottom: 80px;
+        padding: 40px 0;
     }
 
     .about__text {
@@ -81,5 +76,7 @@
         padding: 14.5px 27px;
         width: 100%;
         text-align: center;
-    }
+       
+}
+
 }

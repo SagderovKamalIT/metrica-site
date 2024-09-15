@@ -1,3 +1,8 @@
+.items__projects {
+  padding-top: 75px;
+  padding-bottom: 150px;
+}
+
 .list__item {
   margin-bottom: 90px;
 }
@@ -38,11 +43,13 @@
 }
 
 
-.projects__btn {
-  margin-bottom: 158px;
-}
-
 @media (max-width: 960px) {
+  .items__projects {
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+  }
+
   .projects_image {
     width: 928px;
     object-fit: cover;
@@ -59,6 +66,11 @@
 }
 
 @media (max-width: 640px) {
+  .items__projects {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
   .projects__title {
     margin-bottom: 20px;
   }
