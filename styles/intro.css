@@ -1,5 +1,6 @@
 .intro {
-  margin-bottom: 150px;
+  padding-top: 128px;
+  padding-bottom: 75px;
 }
 
 .intro__text {
@@ -23,18 +24,20 @@
   .intro__image {
     position: relative;
     width: 1150px;
-    height: 500px;
+     height: 500px; 
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../resources/rectangle1.png")
     
   }
 
-  @media (max-width: 1199px) {
+  @media (max-width: 960px) {
 
     .intro {
-      margin-bottom: 125px;
+      padding-top: 128px;
+      padding-bottom: 60px;
     }
+    
 
     .intro__text {
       background-size: cover;
@@ -59,12 +62,13 @@
 
 
 
-  @media (max-width: 760px) {
-
+  @media (max-width: 640px) {
+   
     .intro {
-      margin-bottom: 80px;
-      margin-top: 128px;
+      padding-top: 108px;
+      padding-bottom: 40px;
     }
+   
 
     .intro__text {
       width: 100%;
@@ -88,6 +92,12 @@
   }
 
   @media (max-width: 400px) {
+    .intro {
+      padding-top: 108px;
+      padding-bottom: 40px;
+    }
+   
+
     .intro__image {
       background-image: url("../resources/intro_img.png");
     }
