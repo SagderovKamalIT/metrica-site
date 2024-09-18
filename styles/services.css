@@ -97,12 +97,7 @@
 }
 
 @media (max-width: 640px) {
-
-<<<<<<< HEAD
-  .services__section {
-=======
   .section__services {
->>>>>>> branch1
     padding: 80px 0;
   }
 

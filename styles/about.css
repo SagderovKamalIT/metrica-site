@@ -2,11 +2,7 @@
     padding: 75px 0;
 }
 
-.about__text {
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 31px;
-}
+
 
 .about__paragraph {
     max-width: 1048px;
@@ -42,10 +38,7 @@
 >>>>>>> branch1
     }
 
-    .about__text {
-        font-size: 18px;
-
-    }
+    
 
     .about__paragraph {
         width: 690px;
@@ -73,10 +66,7 @@
 >>>>>>> branch1
     }
 
-    .about__text {
-        font_size: 14px;
-        margin-bottom: 20px;
-    }
+    
 
     .about__paragraph {
         width: 100%;
