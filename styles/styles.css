@@ -6,8 +6,9 @@
 @import url(../styles/contacts.css);
 @import url(../styles/services.css);
 @import url(../styles/gallery.css);
-@import url(../styles/buttons.css);
 @import url(../styles/reviews.css);
+@import url(../styles/buttons.css);
+
 
 html {
   scroll-behavior: smooth;
@@ -64,13 +65,11 @@ section {
 
   .sections__title {
     font-size: 18px;
-
-}
-
+  }
 }
 
 @media (max-width: 640px) {
-   .container {
+  .container {
     padding-left: 12px;
     padding-right: 12px;
 
@@ -79,7 +78,6 @@ section {
       line-height: 105%;
     }
   }
-
 
   h2 {
     color: rgb(18, 18, 18);
@@ -92,6 +90,5 @@ section {
   .sections__title {
     font_size: 14px;
     margin-bottom: 20px;
-}
-
+  }
 }
