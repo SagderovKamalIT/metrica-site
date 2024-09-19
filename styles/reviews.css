@@ -13,13 +13,10 @@
   width: calc(50% - 25px);
 }
 
-/* .review:last-child:nth-child(2n + 1) {
+.review:last-child:nth-child(2n + 1) {
   width: 75%;
-} */
-
-.review:last-child {
-  width: 861px;
 }
+
 
 .review__title {
   font-weight: 400;
@@ -45,9 +42,10 @@
     width: calc(50% - 5px);
   }
 
-  .review:last-child {
-    width: 694px;
+  .review:last-child:nth-child(2n + 1) {
+    width: 75%;
   }
+
 
   .review__title {
     font-size: 35px;
@@ -73,7 +71,7 @@
     width: 100%;
   }
 
-  .review:last-child {
+  .review:last-child:nth-child(2n + 1) {
     width: 100%;
   }
 
