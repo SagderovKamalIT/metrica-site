@@ -17,12 +17,11 @@
   width: 75%;
 }
 
-
 .review__title {
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
-  margin-bottom: 14px
+  margin-bottom: 14px;
 }
 
 .review__text {
@@ -35,7 +34,6 @@
   .reviews {
     column-gap: 10px;
     row-gap: 80px;
-
   }
 
   .review {
@@ -45,7 +43,6 @@
   .review:last-child:nth-child(2n + 1) {
     width: 75%;
   }
-
 
   .review__title {
     font-size: 35px;
@@ -62,7 +59,6 @@
 }
 
 @media (max-width: 640px) {
-
   .reviews {
     flex-direction: column;
   }
@@ -87,5 +83,4 @@
     font-weight: 400;
     line-height: 22px;
   }
-
 }
