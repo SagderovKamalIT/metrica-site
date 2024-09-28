@@ -1,25 +1,79 @@
+.gallery__slides {
+  width: 1400px;
+  height: 717px; 
+  position: releative;
+}
+
 .gallery {
-    position: relative;
-    height: 717px;
-    background-image: url("../resources/bedroom.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*cover - картинка тянется, занимает 100% ширины всегда
-                            contain-будет вписываться в блок, не ломая пропорции */
-    background-position: 50% 50%;
-    /*картинка всегда будет стоять по центру */
-  }
-  
-  
-  .gallery__text {
-    position: absolute;
-    width: 443px;
-    height: 82px;
-    left: 125px;
-    right: 832px;
-    top: 575px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 41px;
-    color: rgb(255, 255, 255);
-  }
+  position: relative;
+}
+
+.gallery__title-wrapper {
+  position: absolute;
+  z-index: 100;
+  left: 109px;
+  top: 67px;
+}
+
+.gallery__title {
+  font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+color: rgb(255, 255, 255);
+}
+
+.gallery__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.gallery__slide-active {
+  opacity: 1;
+}
+
+.box {
+  height: 100%;
+}
+
+.box-bedroom {
+  background-image: url(../resources/bedroom__dekstop.png);
+}
+
+.box-armchair {
+  background-image: url(../resources/armchair__dekstop.png);
+}
+
+.box-living_room {
+  background-image: url(../resources/living-room__dekstop.png);
+}
+
+.box-kitchen {
+  background-image: url(../resources/kitchen__dekstop.png);
+}
+
+.gallery__controls-wrapper {
+  position: absolute ;
+  width: 100%;
+}
+
+.gallery__controls {
+  display: flex;
+  width: 40px;
+height: 40px;
+
+}
+
+.gallery__controls-prev {
+  width: 19.62px;
+  height: 33.33px;
+  left: 10px;
+  top: 3.33px;
+  background: rgb(255, 255, 255);
+}
+
+
+

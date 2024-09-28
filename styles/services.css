@@ -1,6 +1,5 @@
 
 .services__section {
-  margin: 0 auto;
   padding: 150px 0;
   background-color: rgb(18, 18, 18);
 }
@@ -45,8 +44,10 @@
 
 
 .service__image {
+  height: 100%;
   width: 100%;
-  margin-bottom: 24.94px;
+  object-fit: cover;
+  margin-bottom: 25px;
 }
 
 .service__title {
