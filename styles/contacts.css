@@ -30,7 +30,7 @@
   height: 24px;
   top: -50px;
   left: -5px;
-  background-image: url(/resources/iphone.png);
+  background-image: url("../resources/iphone.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +43,7 @@
   height: 24px;
   top: -50px;
   left: -5px;
-  background-image: url(/resources/mail.png);
+  background-image: url("../resources/mail.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
