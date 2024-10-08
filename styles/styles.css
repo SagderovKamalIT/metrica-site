@@ -20,6 +20,7 @@ body {
   width: 100%;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.03em;
+  overflow-x: hidden;
 }
 
 .container {

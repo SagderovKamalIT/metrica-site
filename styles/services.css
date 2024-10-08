@@ -62,17 +62,11 @@
 
 
 @media (max-width: 960px) {
-<<<<<<< HEAD
   .services__section {
     padding-top: 151px;
     padding-bottom: 120px;
   }
-=======
-   .section__services {
-    padding-top: 150px;
-    padding-bottom: 120px;
-   }
->>>>>>> branch1
+
 
   .services {
     column-gap: 10px;

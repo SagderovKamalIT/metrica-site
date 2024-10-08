@@ -1,45 +1,96 @@
-.phone_before::before {
-    content: "";
-    display: block;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 12px;
-    margin-left: -5px;
-    background-image: url(/resources/iphone.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.contacts__section {
+  padding: 150px 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 104px;
+  margin-top: 74px;
+}
+
+.contacts__details {
+  position: relative;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 60px;
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+}
+
+.contacts__details:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.phone::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  top: -50px;
+  left: -5px;
+  background-image: url(/resources/iphone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mail::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  top: -50px;
+  left: -5px;
+  background-image: url(/resources/mail.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 960px) {
+  .contacts__section {
+    padding-top: 120px;
+    padding-bottom: 80px;
   }
-  
-  .phone_contacts {
-    padding-top: 151px;
-    padding-bottom: 156px;
-  }
-  
+
   .contacts {
-    margin-bottom: 32px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    color: rgb(18, 18, 18);
+    gap: 114px;
   }
-  
-  .phone_number {
-    display: block;
-    font-size: 59px;
-    font-weight: 400;
-    line-height: 60px;
-    text-decoration: none;
-    color: rgb(18, 18, 18);
-    margin-bottom: 30px;
-    text-decoration: none;
+
+  .contacts__details {
+    font-size: 45px;
+    line-height: 133%;
   }
-  
-  .mail {
-    font-size: 58px;
-    font-weight: 400;
-    line-height: 60px;
-    color: rgb(18, 18, 18);
-    opacity: 0.5;
+}
+
+@media (max-width: 640px) {
+  .contacts__section {
+    padding: 80px 0;
   }
-  
+
+  .contacts {
+    flex-direction: column;
+    margin-top: 58px;
+  }
+
+  .contacts__details {
+    font-size: 35px;
+    line-height: 130%;
+  }
+
+  .mail::before {
+    width: 18px;
+    height: 18px;
+    top: -38px;
+    left: -2px;
+  }
+
+  .phone::before {
+    width: 18px;
+    height: 18px;
+    top: -38px;
+    left: -2px;
+  }
+}
