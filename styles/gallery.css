@@ -175,10 +175,11 @@ color: rgb(255, 255, 255);
   }
 
    .gallery__controls {
-    display: flex;
     justify-content: space-between;
     margin: 0;
    }
+
+   
 
 
 
