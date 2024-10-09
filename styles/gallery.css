@@ -74,7 +74,7 @@ color: rgb(255, 255, 255);
 .gallery__controls {
   display: flex;
   gap: 15px;
-  margin-left: 125px;
+  margin-left: 119px;
   
 }
 
@@ -83,10 +83,12 @@ color: rgb(255, 255, 255);
  .gallery__next {
   background: none;
   border: none;
-  width: 20px;
-  height: 34px;
-  
-   
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+
 } 
 
 .gallery__prev {
@@ -94,15 +96,13 @@ color: rgb(255, 255, 255);
   
 }
 
-.gallery__prev:hover {
-  opacity: 0.5;
-}
 
 .gallery__next {
   background-image: url("../resources/control.png");
   transform: rotate(180deg);
 }
 
+.gallery__prev:hover,
 .gallery__next:hover {
   opacity: 0.5;
 }
