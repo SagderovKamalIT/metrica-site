@@ -2,16 +2,15 @@ footer {
     padding: 60px 0 30px 0;
   }
   
-  .footer__section {
+  .footer {
     background-color: rgb(18, 18, 18);
   }
   
   
-  .footer {
+  .footer__nav {
     display: flex;
-    margin: 0 auto;
     column-gap: 55px;
-    width: 450px;
+    justify-content: center;
   }
   
   
@@ -46,8 +45,7 @@ footer {
       padding: 30px 0 26px 0;
     }
 
-    .footer {
-      width: 281px;
+    .footer__nav {
       column-gap: 30px;
       justify-content: center;
     }

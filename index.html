@@ -14,9 +14,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/popup.css" />
 </head>
 
 <body>
+
+  
+  
   <!-- 
     <header>
 
@@ -126,7 +130,7 @@
               <img class="service__image" src="resources/planing.png" />
 
             </div>
-            <h2 class="service__title">Планировочное решение</h2>
+            <h3 class="service__title">Планировочное решение</h3>
           </li>
 
           <li class="service">
@@ -136,7 +140,7 @@
 
               <img class="service__image" src="resources/design.png" />
             </div>
-            <h2 class="service__title">Дизайн-проект</h2>
+            <h3 class="service__title">Дизайн-проект</h3>
           </li>
 
           <li class="service">
@@ -147,7 +151,7 @@
               <img class="service__image" src="resources/supervision.png" />
 
             </div>
-            <h2 class="service__title">Авторский надзор</h2>
+            <h3 class="service__title">Авторский надзор</h3>
           </li>
 
           <li class="service">
@@ -162,12 +166,13 @@
 
 
             </div>
-            <h2 class="service__title">Комплектация</h2>
+            <h3 class="service__title">Комплектация</h3>
           </li>
 
-          <a class="btn btn_inverted" href="404">Заказать услугу</a>
+          <button class=" js-btn btn btn_inverted  ">Заказать услугу</button>
         </ul>
-      </div>
+
+
     </section>
 
 
@@ -180,7 +185,7 @@
         <ul class="reviews">
 
           <li class="review">
-            <p class="review__title">Ксения, проект 65 кв.м.</p>
+            <h3 class="review__title">Ксения, проект 65 кв.м.</h3>
             <p class="review__text"> Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с
               мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих
               клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м.
@@ -191,7 +196,7 @@
           </li>
 
           <li class="review">
-            <p class="review__title">Регина, проект 89 кв.м.</p>
+            <h3 class="review__title">Регина, проект 89 кв.м.</h3>
             <p class="review__text"> Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень
               приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас
               ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!
@@ -201,7 +206,7 @@
           </li>
 
           <li class="review">
-            <p class="review__title">Яна, проект 120 кв.м.</p>
+            <h3 class="review__title">Яна, проект 120 кв.м.</h3>
             <p class="review__text"> Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила
               разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество
               выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось
@@ -228,19 +233,22 @@
           <h2 class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</h2>
         </div>
 
-
       </div>
 
-      <ul class="gallery__slides  ">
+      <ul class="gallery__slides">
         <li class="gallery__slide gallery__slide-active ">
 
           <picture>
             <img class="gallery__image" src="resources/bedroom__dekstop.png" alt="Проект двухкомнатной квартиры">
           </picture>
 
-          <div class=" gallery__text-wrapper">
-            <p class="gallery__text">Проект Двухкомнтаной <br> квартиры в ЖК Лесной Пейзаж</p>
-          </div>
+          
+            <div class="container">
+              <div class="gallery__text-wrapper ">
+                <p class="gallery__text">Проект Двухкомнтаной <br> квартиры в ЖК Лесной Пейзаж</p>
+              </div>
+            </div>
+          
 
         </li>
 
@@ -248,9 +256,12 @@
 
           <img class="gallery__image" src="resources/armchair__dekstop.png" alt="Проект гостиной">
 
-          <div class=" gallery__text-wrapper">
-            <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
-          </div>
+          
+            <div class="container">
+              <div class=" gallery__text-wrapper ">
+                  <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
+              </div>
+            </div>
 
         </li>
 
@@ -258,8 +269,10 @@
 
           <img class="gallery__image" src="resources/living-room__dekstop.png" alt="Визуализация кухни-гостиной ">
 
-          <div class=" gallery__text-wrapper">
-            <p class="gallery__text">Визуализация кухни-гостиной <br> в частном доме</p>
+          <div class="container">
+            <div class=" gallery__text-wrapper">
+              <p class="gallery__text">Визуализация кухни-гостиной <br> в частном доме</p>
+            </div>
           </div>
 
         </li>
@@ -268,23 +281,25 @@
 
           <img class="gallery__image" src="resources/kitchen__dekstop.png" alt="Проект кухни">
 
-          <div class=" gallery__text-wrapper">
-            <p class="gallery__text">Проект кухни в скандинавском <br> стиле для ЖК Северный Ветер</p>
+          <div class="container">
+            <div class=" gallery__text-wrapper">
+              <p class="gallery__text">Проект кухни в скандинавском <br> стиле для ЖК Северный Ветер</p>
+            </div>
           </div>
 
         </li>
       </ul>
 
-      <div class="gallery__btn">
+      
+        <div class="gallery__btn">
+          <div class="container">
+            <div class="gallery__controls">
+              <button class="gallery__prev "></button>
+              <button class="gallery__next "></button>
+            </div>
+          </div>
+       </div>
 
-
-        <div class="gallery__controls">
-          <button class="gallery__prev "></button>
-          <button class="gallery__next "></button>
-        </div>
-
-
-      </div>
 
     </section>
 
@@ -296,13 +311,13 @@
         <h2 class="sections__title">КОНТАКТЫ</h2>
 
 
-        <div class="contacts">
+        <ul class="contacts">
 
-          <a class="contacts__phone"  href="tel:+79358954535">+7 935 895-45-35</a>
+          <li class="contacts__phone"  href="tel:+79358954535">+7 935 895-45-35</li>
 
-          <a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
+          <li class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</li>
 
-        </div>
+        </ul>
 
       </div>
 
@@ -310,10 +325,10 @@
 
   </main>
 
-<footer class="footer__section">
+<footer class="footer">
 
     <div class="container">
-      <nav class="footer">
+      <nav class="footer__nav">
         <a href="#aboutus" class="footer__link">О НАС</a>
         <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
         <a href="#services" class="footer__link">УСЛУГИ</a>
@@ -325,6 +340,7 @@
 </footer> 
 
   <script src="gallery.js"></script>
+  <script src="popup.js" ></script>
 
 </body>
 

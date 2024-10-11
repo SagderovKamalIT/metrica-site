@@ -13,7 +13,7 @@
   position: absolute;
   left: 40px;
   bottom: 40px;
-  max-width: 430px;
+  width: 430px;
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
@@ -22,11 +22,12 @@
 
 .intro__image {
   position: relative;
-  width: 1150px;
+  max-width: 1150px;
   height: 500px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../resources/rectangle1.png");
+  background-position: 50%;
+  background-image: url("../resources/intro__dekstop.png");
 }
 
 @media (max-width: 960px) {
@@ -40,20 +41,17 @@
     max-width: 802px;
   }
 
-  /* .intro__image {
-    position: relative;
-    width: 1150px;
-     height: 500px; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../resources/rectangle1.png")
-    
-  } */
-
   .intro__image__text {
+    
     bottom: 30px;
     left: 42px;
   }
+
+  .intro__image {
+    height: 400px;
+    background-image: url("../resources/intro__tablet.png");
+  }
+
 }
 
 @media (max-width: 640px) {
@@ -85,7 +83,7 @@
 
 @media (max-width: 400px) {
   .intro__image {
-    background-image: url("../resources/intro_img.png");
+    background-image: url("../resources/intro_mobile.png");
   }
 
   .intro__image__text {
