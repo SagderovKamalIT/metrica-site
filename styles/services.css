@@ -18,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
-  row-gap: 80.7px;
+  row-gap: 81px;
 }
 
 .service {
@@ -27,6 +27,8 @@
 
 .service__block {
   position: relative;
+  height: 389px
+  margin-bottom: 25px;
 }
 
 .service__price {
@@ -47,7 +49,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 25px;
+  
 }
 
 .service__title {
