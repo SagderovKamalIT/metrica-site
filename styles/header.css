@@ -44,7 +44,7 @@
   
 
   @media (max-width: 960px) {
-      .header-nav {
+      .header__nav {
         display: none;
       }
 
