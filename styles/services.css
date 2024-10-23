@@ -27,7 +27,7 @@
 
 .service__block {
   position: relative;
-  height: 389px
+  height: 452px;
   margin-bottom: 25px;
 }
 
@@ -53,7 +53,6 @@
 }
 
 .service__title {
-  height: 41px;
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
@@ -76,6 +75,10 @@
     
   }
 
+  .service__block {
+    height: 364px;
+  }
+
   .service__title {
     font-size: 25px;
   }
@@ -94,7 +97,7 @@
 }
 
 @media (max-width: 640px) {
-  .section__services {
+  .services__section {
     padding: 80px 0;
   }
 
@@ -105,7 +108,15 @@
   }
 
   .service {
-    width: 100%;
+     width: 100%; 
+  }
+  
+  .services {
+    row-gap: 60px;
+  }
+
+  .service__block {
+    height: 274px;
   }
 
   .service__title {

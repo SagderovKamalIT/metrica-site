@@ -10,6 +10,9 @@
 @import url(../styles/buttons.css);
 @import url(../styles/gallery.css);
 @import url(../styles/popup.css);
+@import url(../styles/input.css);
+@import url(../styles/order.css);
+@import url(../styles/burgrer.css);
 
 
 html {
@@ -28,10 +31,7 @@ body {
   overflow: hidden;
 }
 
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
+
 
 .container {
   max-width: 1180px;
@@ -85,10 +85,11 @@ section {
     padding-left: 12px;
     padding-right: 12px;
 
-    h1 {
-      font-size: 30px;
-      line-height: 105%;
-    }
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 105%;
   }
 
   h2 {

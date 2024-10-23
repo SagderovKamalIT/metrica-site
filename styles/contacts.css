@@ -11,23 +11,24 @@
 
 
 .contacts__phone,
-.contacts__mail {
+.contacts__tg {
   position: relative;
   font-size: 58px;
   font-weight: 400;
   line-height: 60px;
+
   color: rgb(18, 18, 18);
   text-decoration: none;
 }
 
 .contacts__phone:hover,
-.contacts__mail:hover {
+.contacts__tg:hover {
   opacity: 0.5;
   text-decoration: underline;
 }
 
 .contacts__phone::before,
-.contacts__mail::before {
+.contacts__tg::before {
   position: absolute;
   content: "";
   width: 24px;
@@ -43,7 +44,7 @@
   background-image: url("../resources/iphone.png");
 }
 
-.contacts__mail::before {
+.contacts__tg::before {
   background-image: url("../resources/mail.png");
 }
 
@@ -58,7 +59,7 @@
   }
 
 .contacts__phone,
-.contacts__mail  {
+.contacts__tg  {
     font-size: 40px;
     line-height: 133%;
   }
@@ -75,12 +76,12 @@
   }
 
   .contacts__phone,
-  .contacts__mail  {
+  .contacts__tg  {
     font-size: 35px;
     line-height: 130%;
   }
 
-  .contacts__mail::before {
+  .contacts__tg::before {
     width: 18px;
     height: 18px;
     top: -38px;

@@ -1,0 +1,35 @@
+.order__title {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    margin-bottom: 4px;
+    color: #000;
+    }
+    
+    .order__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000;
+    }
+
+    .order__input {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    @media (max-width: 640px)  {
+        .order__title {
+            font-size: 25px;
+            margin-bottom: 11px;
+            line-height: 34px;
+        }
+    
+        .order__paragraph {
+            font-size: 14px;
+            margin-bottom: 26px;
+            line-height: 19px;
+        }
+    }

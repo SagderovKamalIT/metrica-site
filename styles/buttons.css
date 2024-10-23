@@ -1,3 +1,21 @@
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.services__btn {
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(173, 24, 24);
+  cursor: pointer;
+}
+
 .btn {
     display: block;
     border: 1px solid rgb(173, 24, 24);
@@ -28,6 +46,16 @@
     background-color: rgb(255, 255, 255);
   }
 
+  .btn__small {
+    border-radius: 5px;
+    padding: 20px 40px;
+    max-width: 644px;
+    height: 67px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 90px;
+    }
 
   @media (max-width: 640px) {
     .btn {
@@ -35,4 +63,19 @@
         padding-top: 31px;
         font-size: 22px;
       }
+
+      .services__btn {
+        border-radius: 4px;
+        padding: 14.5px 27px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .btn__small {
+        border-radius: 5px;
+        padding: 20px 40px;
+        width: 329px;
+        height: auto;
+        margin-top: 70px;
+    }
   }
