@@ -1,4 +1,4 @@
- .burger-btn {
+ .burger__btn {
     display: none;
     z-index: 500;
   } 
@@ -12,13 +12,13 @@
     z-index: 100;
     display: flex;
     justify-content: end;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
     visibility: hidden;
     
   }
 
-  .burger_open {
+  .burger__open {
     opacity: 1;
     visibility: visible;
   }
@@ -35,7 +35,7 @@
     transform: translateX(100%);
   }
 
-  .burger_open .burger__content {
+  .burger__open .burger__content {
     transform: translateX(0);
   }
 
@@ -88,7 +88,7 @@
 
 
   @media screen and (max-width: 960px) {
-      .burger-btn {
+      .burger__btn {
         display: block;
         position: relative;
         width: 50px;
@@ -98,8 +98,8 @@
       }
 
 
-      .burger-btn::before,
-      .burger-btn::after {
+      .burger__btn::before,
+      .burger__btn::after {
          content: "";
          position: absolute;
          right: 0;
@@ -107,17 +107,17 @@
          background-color: black;
       }
 
-      .burger-btn::after {
+      .burger__btn::after {
         top: 6px;
         width: 31px;
       }
 
-      .burger-btn::before {
+      .burger__btn::before {
         top: 0;
         width: 100%;
       }
 
-      .burger-btn_open {
+      .burger-btn__open {
         position: absolute;
         top: 20px;
         right: 20px;
@@ -129,8 +129,8 @@
 
       }
 
-      .burger-btn_open::before,
-      .burger-btn_open::after {
+      .burger-btn__open::before,
+      .burger-btn__open::after {
         display: none;
       }   
       
@@ -143,11 +143,11 @@
   }
 
   @media (max-width: 640px) {
-    .burger-btn::before {
+    .burger__btn::before {
       width: 38px;
     }
 
-    .burger-btn::after {
+    .burger__btn::after {
       width: 24px;
       top: 5px;
     }
