@@ -7,13 +7,12 @@ footer {
   }
   
   
-  .footer__nav {
+  .footer-nav {
     display: flex;
     column-gap: 55px;
     justify-content: center;
   }
-  
-  
+
   .footer__link {
     font-size: 18px;
     font-weight: 400;
@@ -21,12 +20,13 @@ footer {
     text-decoration: none;
     height: 25px;
     color: rgb(255, 255, 255);
-  
   }
+
   
   .footer__link:hover {
-    opacity: 0.5;
-    border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+    opacity: 0.5; 
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-decoration: underline;
   }
   
   .footer__title {
@@ -45,7 +45,7 @@ footer {
       padding: 30px 0 26px 0;
     }
 
-    .footer__nav {
+    .footer-nav {
       column-gap: 30px;
       justify-content: center;
     }

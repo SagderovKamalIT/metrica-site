@@ -19,28 +19,94 @@
 
 <body>
 
-  
-  
-  <!-- 
-    <header>
 
-      <div class="container">
-        <div class="nav__section">
-          <div class="nav__container">
-            <a href="/" class="logo__link">
-              <img src="./resources/Метрика.jpeg" alt="Логотип" class="logo">
+  <header class="header">
+
+    <div class="container">
+
+      <div class="nav__container">
+        <a href="/" class="logo__link">
+            <img src="./resources/metrica.svg" alt="Логотип" class="logo">
+        </a>
+
+        <nav class="header-nav">
+
+          <ul class="header__nav-list">
+
+            <li>
+              <a href="#about" class="header__nav-link">О НАС</a>
+            </li>
+            <li>
+              <a href="#projects" class="header__nav-link ">ПРОЕКТЫ</a>
+            </li>
+            <li>
+              <a href="#services" class="header__nav-link ">УСЛУГИ</a>
+            </li>
+            <li>
+              <a href="#contacts" class="header__nav-link ">КОНТАКТЫ</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+    
+
+        <button class=" burger-btn js-burger-btn "></button>
+
+        <div class="burger js-burger ">
+
+          <div class=" burger__content">
+
+          
+      
+
+            <a href="/" class="burger__logo">
+              <img src="./resources/metrica.svg" alt="Логотип" class="burger__logo">
             </a>
-            <nav class="nav">
-              <a href="#about_us" class="nav__link nav__link_active">О НАС</a>
-              <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
-              <a href="#services" class="nav__link">УСЛУГИ</a>
-              <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+
+            <nav class="burger__nav">
+
+              <ul class="burger__nav-list">
+
+                <li>
+                  <a href="#aboutus" class="burger__nav-link">О НАС</a>
+                </li>
+                <li>
+                  <a href="#projects" class="burger__nav-link">ПРОЕКТЫ</a>
+                </li>
+                <li>
+                  <a href="#services" class="burger__nav-link">УСЛУГИ</a>
+                </li>
+                <li>
+                  <a href="#contacts" class="burger__nav-link">КОНТАКТЫ</a>
+                </li>
+
+              </ul>
+
             </nav>
+
+            <ul class="js-burger__content burger__contacts">
+
+              <h3 class="burger__contacts-title">для связи:</h3>
+
+
+              <li>
+                <a class="burger__contacts-phone" href="tel:+79358954535">+7 935 895-45-35</a>
+              </li>
+    
+              <li>
+                <a class="burger__contacts-tg" href="https://t.me/kamal_sagderov">kamal_sagderov</a>
+              </li>
+
+            </ul>
           </div>
         </div>
-      </div>
+        </div>
+    </div>
 
-    </header>  -->
+  </header>
+
 
   <main>
     <section class="intro">
@@ -49,7 +115,7 @@
           Современные и стильные <br />интерьеры для комфортной жизни
         </h1>
         <div class="intro__image">
-          <p class="intro__image__text">
+          <p class="intro__image-text">
             Мы - команда квалифицированных дизайнеров и архитекторов,
             занимающихся разработкой и реализацией дизайн-проектов
           </p>
@@ -57,7 +123,7 @@
       </div>
     </section>
 
-    <section class="about" id="about_us">
+    <section class="about" id="about">
       <div class="container">
         <h2 class="sections__title">О НАС</h2>
         <p class="about__paragraph">
@@ -172,7 +238,34 @@
           <button class=" js-btn btn btn_inverted  ">Заказать услугу</button>
         </ul>
 
+        <div class=" js-popup popup">
+          <div class=" js-popup__content popup__content">
 
+            <div class="js-popup__close-btn popup__close-btn ">
+
+            </div>
+
+            <h3 class="order__title">
+              Заказать услугу
+            </h3>
+
+            <p class="order__paragraph">
+              Заполните форму, мы свяжемся с вами в течение суток
+            </p>
+            <form class="order__form">
+
+              <input class="input order__input " type="text" name="name" placeholder="Имя">
+
+              <input class="input order__input " type="email" name="email" placeholder="Электронная почта">
+
+              <input class="input order__input " type="tel" name="phone" placeholder="Номер телефона">
+            </form>
+
+
+            <button class="btn btn_inverted btn__small ">Отправить</button>
+          </div>
+
+        </div>
     </section>
 
 
@@ -242,13 +335,13 @@
             <img class="gallery__image" src="resources/bedroom__dekstop.png" alt="Проект двухкомнатной квартиры">
           </picture>
 
-          
-            <div class="container">
-              <div class="gallery__text-wrapper ">
-                <p class="gallery__text">Проект Двухкомнтаной <br> квартиры в ЖК Лесной Пейзаж</p>
-              </div>
+
+          <div class="container">
+            <div class="gallery__text-wrapper ">
+              <p class="gallery__text">Проект Двухкомнтаной <br> квартиры в ЖК Лесной Пейзаж</p>
             </div>
-          
+          </div>
+
 
         </li>
 
@@ -256,12 +349,12 @@
 
           <img class="gallery__image" src="resources/armchair__dekstop.png" alt="Проект гостиной">
 
-          
-            <div class="container">
-              <div class=" gallery__text-wrapper ">
-                  <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
-              </div>
+
+          <div class="container">
+            <div class=" gallery__text-wrapper ">
+              <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
             </div>
+          </div>
 
         </li>
 
@@ -290,21 +383,21 @@
         </li>
       </ul>
 
-      
-        <div class="gallery__btn">
-          <div class="container">
-            <div class="gallery__controls">
-              <button class="gallery__prev "></button>
-              <button class="gallery__next "></button>
-            </div>
+
+      <div class="gallery__btn">
+        <div class="container">
+          <div class="gallery__controls">
+            <button class="gallery__prev "></button>
+            <button class="gallery__next "></button>
           </div>
-       </div>
+        </div>
+      </div>
 
 
     </section>
 
 
-    <section class="contacts__section">
+    <section class="contacts__section"  id="contacts">
 
       <div class="container">
 
@@ -313,11 +406,17 @@
 
         <ul class="contacts">
 
-          <li class="contacts__phone"  href="tel:+79358954535">+7 935 895-45-35</li>
+          <li>
+            <a class="contacts__phone" href="tel:+79358954535">+7 935 895-45-35</a>
+          </li>
 
-          <li class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</li>
+          <li>
+            <a class="contacts__tg" href="https://t.me/kamal_sagderov">kamal_sagderov</a>
+          </li>
 
-        </ul>
+          </ul>
+            
+  
 
       </div>
 
@@ -325,22 +424,32 @@
 
   </main>
 
-<footer class="footer">
+  <footer class="footer">
 
     <div class="container">
-      <nav class="footer__nav">
-        <a href="#aboutus" class="footer__link">О НАС</a>
-        <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
-        <a href="#services" class="footer__link">УСЛУГИ</a>
-        <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
-      </nav>
-      <p class="footer__title" >студия дизайна интерьера Метрика — 2024</p>
+      <ul class="footer-nav ">
+        <li>
+          <a  href="#about" class="footer__link">О НАС</a>
+        </li>
+        <li>
+          <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
+        </li>
+        <li>
+          <a  href="#services" class="footer__link">УСЛУГИ</a>
+        </li>
+        <li>
+          <a  href="#contacts" class="footer__link">КОНТАКТЫ</a>
+        </li>
+      </ul>
+      <p class="footer__title">студия дизайна интерьера Метрика — 2024</p>
     </div>
 
-</footer> 
+  </footer>
 
+
+  <script src="burger.js"></script>
   <script src="gallery.js"></script>
-  <script src="popup.js" ></script>
+  <script src="popup.js"></script>
 
 </body>
 

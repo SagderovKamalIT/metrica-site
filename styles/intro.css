@@ -1,5 +1,4 @@
 .intro {
-  padding-top: 128px;
   padding-bottom: 75px;
 }
 
@@ -9,7 +8,7 @@
   margin-bottom: 30px;
 }
 
-.intro__image__text {
+.intro__image-text {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -22,7 +21,7 @@
 
 .intro__image {
   position: relative;
-  max-width: 1150px;
+  max-width: 100%;
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +31,6 @@
 
 @media (max-width: 960px) {
   .intro {
-    padding-top: 128px;
     padding-bottom: 60px;
   }
 
@@ -41,7 +39,7 @@
     max-width: 802px;
   }
 
-  .intro__image__text {
+  .intro__image-text {
     
     bottom: 30px;
     left: 42px;
@@ -56,7 +54,6 @@
 
 @media (max-width: 640px) {
   .intro {
-    padding-top: 108px;
     padding-bottom: 40px;
   }
 
@@ -68,7 +65,7 @@
     height: 304px;
   }
 
-  .intro__image__text {
+  .intro__image-text {
     font-size: 16px;
     max-width: 321px;
     left: 15px;
@@ -86,7 +83,7 @@
     background-image: url("../resources/intro_mobile.png");
   }
 
-  .intro__image__text {
+  .intro__image-text {
     width: 100%;
     font-size: 14px;
     left: 15px;
